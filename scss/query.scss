@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px) {
+    #navbar li:not(#logo) {
+        display: none;
+    }
+
+    #bottom-header-links a:not(.btn) {
+        display: none;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+        
+        #subtitle {
+            font-size: 3rem;
+        }
+    }
+
+    
+}
