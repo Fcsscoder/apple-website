@@ -1,6 +1,10 @@
-@media screen and (max-width: 480px) {
-    #navbar li:not(#logo) {
+@media screen and (max-width: 600px) {
+    #navbar li{
         display: none;
+    }
+
+    #navbar #logo {
+        display: flex;
     }
 
     #bottom-header-links a:not(.btn) {
